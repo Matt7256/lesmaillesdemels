@@ -15,6 +15,9 @@ import g1 from "@/assets/g1.jpg";
 import g3 from "@/assets/g3.jpg";
 import g5 from "@/assets/g5.jpg";
 import g6 from "@/assets/g6.jpg";
+import topCrochetBlancAsset from "@/assets/top-crochet-blanc.jpeg.asset.json";
+
+const topCrochetBlanc = topCrochetBlancAsset.url;
 
 export { hero, atelier, catVetements, catEnsembles, catAccessoires, catSurMesure };
 
