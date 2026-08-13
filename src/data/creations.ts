@@ -25,9 +25,9 @@ export const categories = [
   {
     title: "Vêtements",
     text: "Hauts, gilets et robes réalisés maille après maille.",
-    src: catVetements,
-    width: 900,
-    height: 1100,
+    src: topCrochetBlanc,
+    width: 720,
+    height: 1280,
   },
   {
     title: "Ensembles",
