@@ -88,7 +88,7 @@ function Tarifs() {
                   échangé ensemble sur vos envies.
                 </p>
               ) : null}
-              <div className="mt-8 pt-1">
+              <div className="mt-auto pt-8">
                 <ExternalButton
                   href={site.whatsapp}
                   variant={offre.highlight ? "primary" : "outline"}
