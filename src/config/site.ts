@@ -8,7 +8,7 @@
  *   - instagram  : le lien Instagram (ex : https://instagram.com/moncompte)
  */
 export const site = {
-  brandName: "[NOM DE LA MARQUE]",
+  brandName: "Les Mailles de Mels",
   tagline: "Créations au crochet faites à la main",
   whatsapp: "[WHATSAPP_LINK]",
   instagram: "[INSTAGRAM_LINK]",
