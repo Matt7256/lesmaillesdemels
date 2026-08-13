@@ -34,9 +34,9 @@ export const categories = [
   {
     title: "Ensembles",
     text: "Des tenues coordonnées, du nouveau-né à l'adulte.",
-    src: catEnsembles,
-    width: 900,
-    height: 1100,
+    src: ensembleBleu,
+    width: 375,
+    height: 667,
   },
   {
     title: "Accessoires",
