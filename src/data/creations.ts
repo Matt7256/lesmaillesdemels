@@ -55,8 +55,6 @@ export const featured: Creation[] = [
   { src: g1, title: "Ensemble floral", category: "Vêtements", width: 900, height: 1200 },
   { src: g3, title: "Petite robe crochet", category: "Enfant", width: 900, height: 1200 },
   { src: catVetements, title: "Gilet pastel", category: "Vêtements", width: 900, height: 1100 },
-  { src: g2, title: "Ensemble naissance", category: "Naissance", width: 1000, height: 800 },
-  { src: g5, title: "Ensemble terracotta", category: "Ensembles", width: 1000, height: 750 },
   {
     src: catSurMesure,
     title: "Création personnalisée",
