@@ -22,14 +22,14 @@ export function CreationCard({
         className,
       )}
     >
-      <div className="overflow-hidden">
+      <div className="aspect-[4/5] overflow-hidden">
         <img
           src={creation.src}
           alt={creation.title}
           loading="lazy"
           width={creation.width}
           height={creation.height}
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          className="aspect-[4/5] h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
       </div>
       <figcaption className="px-5 py-4">
