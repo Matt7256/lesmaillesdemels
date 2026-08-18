@@ -11,7 +11,7 @@ export const Route = createFileRoute("/tarifs")({
       {
         name: "description",
         content:
-          "Tarifs indicatifs des créations au crochet faites main : petites créations, vêtements et projets sur mesure. Demandez votre devis.",
+          "Tarifs indicatifs des créations au crochet faites main  : petites créations et vêtements. Demandez votre devis.",
       },
       { property: "og:title", content: `Tarifs — ${site.brandName}` },
       {
