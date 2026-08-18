@@ -10,8 +10,10 @@
 export const site = {
   brandName: "Les Mailles de Mels",
   tagline: "Créations au crochet faites à la main",
-  whatsapp: "[WHATSAPP_LINK]",
-  instagram: "[INSTAGRAM_LINK]",
+  whatsapp: "https://wa.me/590691262537",
+  whatsappNumber: "+590 691 26 25 37",
+  instagram: "https://instagram.com/lesmaillesdemels_",
+  instagramHandle: "@lesmaillesdemels_",
   year: 2026,
 } as const;
 

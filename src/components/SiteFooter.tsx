@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Instagram, MessageCircle } from "lucide-react";
 import { site, navLinks } from "@/config/site";
 
 export function SiteFooter() {
@@ -31,17 +32,19 @@ export function SiteFooter() {
             href={site.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-foreground/80 transition-colors hover:text-caramel"
+            className="inline-flex items-center gap-2 break-words text-sm text-foreground/80 transition-colors hover:text-caramel"
           >
-            Instagram
+            <Instagram size={16} strokeWidth={1.6} />
+            Instagram — {site.instagramHandle}
           </a>
           <a
             href={site.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-foreground/80 transition-colors hover:text-caramel"
+            className="inline-flex items-center gap-2 break-words text-sm text-foreground/80 transition-colors hover:text-caramel"
           >
-            WhatsApp
+            <MessageCircle size={16} strokeWidth={1.6} />
+            WhatsApp — {site.whatsappNumber}
           </a>
         </div>
       </div>
