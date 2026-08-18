@@ -62,7 +62,7 @@ function APropos() {
             </h1>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               Je m'appelle Mélissa, j'ai 18 ans, et je suis la créatrice des{" "}
-              <span className="font-medium text-foreground">Les Mailles de Mels</span>.
+              <span className="font-medium text-foreground">Mailles de Mels</span>.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
               J'ai découvert le crochet grâce à ma mère, qui m'a transmis cette passion
@@ -117,7 +117,7 @@ function APropos() {
               key={r.title}
               className="rounded-2xl border border-border/70 bg-card px-7 py-9 shadow-soft transition-transform duration-500 hover:-translate-y-1"
             >
-              <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-butter">
+              <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-butter-deep">
                 <r.icon size={22} strokeWidth={1.6} />
               </span>
               <h3 className="mt-6 text-2xl text-foreground">{r.title}</h3>
