@@ -97,7 +97,7 @@ function APropos() {
               key={r.title}
               className="rounded-2xl border border-border/70 bg-card px-7 py-9 shadow-soft transition-transform duration-500 hover:-translate-y-1"
             >
-              <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-caramel">
+              <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-butter">
                 <r.icon size={22} strokeWidth={1.6} />
               </span>
               <h3 className="mt-6 text-2xl text-foreground">{r.title}</h3>
