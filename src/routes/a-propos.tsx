@@ -54,20 +54,22 @@ function APropos() {
               Des créations faites avec passion
             </h1>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              [Texte à personnaliser] Le crochet est avant tout une passion : celle de
-              transformer une simple pelote en une pièce que l'on aura plaisir à porter
-              ou à offrir. Chaque projet commence par une idée, une couleur ou une
-              occasion particulière.
+              Les Mailles de Mels, c'est avant tout une passion : celle de transformer
+              une simple pelote en une pièce que l'on aura plaisir à porter ou à offrir.
+              Chaque projet commence par une idée, une couleur ou une occasion
+              particulière.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              [Texte à personnaliser] Tout est réalisé à la main, sans production en
-              série. Les finitions, les assemblages et les détails demandent du temps,
-              et c'est précisément ce temps qui donne à chaque création son caractère.
+              Toutes les créations sont réalisées au crochet, entièrement à la main et
+              sans production en série. Les finitions, les assemblages et les détails
+              demandent du temps, et c'est précisément ce temps qui donne à chaque pièce
+              son caractère.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              [Texte à personnaliser] Vous avez une envie précise, un modèle en tête ou
-              simplement une palette de couleurs ? Il est possible d'adapter une
-              création existante ou d'imaginer une pièce entièrement nouvelle avec vous.
+              Vous avez une envie précise, un modèle en tête ou simplement une palette de
+              couleurs ? Chaque création peut être personnalisée selon vos souhaits : il
+              est possible d'adapter un modèle existant ou d'imaginer ensemble une pièce
+              entièrement nouvelle.
             </p>
           </div>
 
@@ -87,7 +89,7 @@ function APropos() {
       <Section className="bg-secondary/50">
         <SectionHeading
           eyebrow="Le fait main"
-          title="Pourquoi choisir une création faite main ?"
+          title="Pourquoi choisir les Mailles de Mels ?"
         />
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           {raisons.map((r) => (

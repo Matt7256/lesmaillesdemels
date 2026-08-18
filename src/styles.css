@@ -48,6 +48,7 @@
   --color-rose: var(--rose);
   --color-rose-soft: var(--rose-soft);
   --color-cocoa: var(--cocoa);
+  --color-butter: var(--butter);
 
   --shadow-soft: 0 18px 40px -24px oklch(0.35 0.05 60 / 0.35);
   --shadow-lift: 0 26px 60px -28px oklch(0.35 0.05 60 / 0.45);
@@ -62,6 +63,7 @@
   --rose: oklch(0.65 0.085 25);
   --rose-soft: oklch(0.9 0.032 30);
   --cocoa: oklch(0.29 0.033 48);
+  --butter: oklch(0.86 0.11 95);
 
   --background: var(--cream);
   --foreground: var(--cocoa);
