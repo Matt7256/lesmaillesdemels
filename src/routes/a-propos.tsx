@@ -5,7 +5,9 @@ import { Section, SectionHeading } from "@/components/ui/Section";
 import { ContactCta } from "@/components/ContactCta";
 import { Lys } from "@/components/ui/Lys";
 
-import { atelier } from "@/data/creations";
+import aProposAsset from "@/assets/a-propos.jpeg.asset.json";
+
+const atelier = aProposAsset.url;
 
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
@@ -90,10 +92,10 @@ function APropos() {
             <div className="overflow-hidden rounded-[2rem] shadow-lift">
               <img
                 src={atelier}
-                alt="Atelier de crochet avec pelotes de coton naturel"
+                alt="Mélissa, créatrice des Mailles de Mels, portant une création au crochet rouge"
                 loading="lazy"
-                width={1408}
-                height={1056}
+                width={900}
+                height={1600}
                 className="aspect-[4/5] w-full object-cover sm:aspect-[4/3] md:aspect-[4/5]"
               />
             </div>
