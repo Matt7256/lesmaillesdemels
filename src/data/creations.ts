@@ -5,14 +5,16 @@
  */
 import type { Creation } from "@/components/ui/CreationCard";
 
-import hero from "@/assets/hero-crochet.jpg";
 import atelier from "@/assets/atelier.jpg";
 import catVetements from "@/assets/cat-vetements.jpg";
 import catEnsembles from "@/assets/cat-ensembles.jpg";
 import catAccessoires from "@/assets/cat-accessoires.jpg";
 import catSurMesure from "@/assets/cat-surmesure.jpg";
-import topCrochetBlancAsset from "@/assets/top-crochet-blanc.jpeg.asset.json";
-import ensembleBleuAsset from "@/assets/ensemble-bleu.jpeg.asset.json";
+
+import heroAsset from "@/assets/home-photo_accueil.jpeg.asset.json";
+import homeVetementsAsset from "@/assets/home-vêtements.jpeg.asset.json";
+import homeEnsemblesAsset from "@/assets/home-ensemble.jpeg.asset.json";
+import homeAccessoiresAsset from "@/assets/home-accessoires.jpeg.asset.json";
 
 // Photos des créations (une seule source pour tout le site)
 import bobZekleAsset from "@/assets/bob-zekle.jpeg.asset.json";
@@ -25,8 +27,7 @@ import topNatirelAsset from "@/assets/top-natirel.jpeg.asset.json";
 import topSoleyAsset from "@/assets/top-soley.jpeg.asset.json";
 import topTwopikAsset from "@/assets/top-twopik.jpeg.asset.json";
 
-const topCrochetBlanc = topCrochetBlancAsset.url;
-const ensembleBleu = ensembleBleuAsset.url;
+const hero = heroAsset.url;
 
 export { hero, atelier, catVetements, catEnsembles, catAccessoires, catSurMesure };
 
@@ -34,25 +35,26 @@ export const categories = [
   {
     title: "Vêtements",
     text: "Hauts, gilets et robes réalisés maille après maille.",
-    src: topCrochetBlanc,
-    width: 720,
-    height: 1280,
+    src: homeVetementsAsset.url,
+    width: 1200,
+    height: 1600,
   },
   {
     title: "Ensembles",
     text: "Des tenues coordonnées, du nouveau-né à l'adulte.",
-    src: ensembleBleu,
-    width: 375,
-    height: 667,
+    src: homeEnsemblesAsset.url,
+    width: 1200,
+    height: 1600,
   },
   {
     title: "Accessoires",
     text: "Chapeaux, sacs et petites pièces à offrir.",
-    src: catAccessoires,
-    width: 900,
-    height: 1100,
+    src: homeAccessoiresAsset.url,
+    width: 1200,
+    height: 1600,
   },
 ];
+
 
 /**
  * Créations affichées sur la page Inspirations.

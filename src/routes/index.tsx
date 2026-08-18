@@ -57,9 +57,9 @@ function Accueil() {
             <div className="relative overflow-hidden rounded-[2rem] shadow-lift">
               <img
                 src={hero}
-                alt="Robe au crochet faite main présentée près d'une fenêtre"
-                width={1600}
-                height={1200}
+                alt="Création au crochet faite main des Mailles de Mels"
+                width={900}
+                height={1600}
                 fetchPriority="high"
                 className="aspect-[4/5] w-full object-cover sm:aspect-[5/4] md:aspect-[4/5]"
               />
