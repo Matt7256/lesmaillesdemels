@@ -36,13 +36,32 @@ function Inspirations() {
       </Section>
 
       <Section className="pt-4">
-        <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
-          {gallery.map((creation, i) => (
-            <CreationCard
-              key={`${creation.title}-${i}`}
-              creation={creation}
-              className="break-inside-avoid"
-            />
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {inspirations.map((item) => (
+            <article
+              key={item.name}
+              className="group flex flex-col overflow-hidden rounded-2xl bg-card shadow-soft transition-all duration-500 hover:-translate-y-1 hover:shadow-lift"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src={item.src}
+                  alt={item.name}
+                  loading="lazy"
+                  width={item.width}
+                  height={item.height}
+                  className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                />
+              </div>
+              <div className="flex flex-1 flex-col px-5 py-5">
+                <h2 className="font-serif text-xl leading-snug text-foreground">
+                  {item.name}
+                </h2>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">
+                  {item.description}
+                </p>
+                <p className="mt-4 text-base font-medium text-caramel">{item.price}</p>
+              </div>
+            </article>
           ))}
         </div>
       </Section>
