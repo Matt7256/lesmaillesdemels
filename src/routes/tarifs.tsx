@@ -37,12 +37,8 @@ const offres = [
     items: ["Hauts", "Gilets", "Robes", "Ensembles"],
     highlight: true,
   },
-  {
-    title: "Créations sur mesure",
-    price: "Sur devis",
-    items: ["Modèle", "Taille", "Matières", "Complexité", "Personnalisation"],
-  },
 ];
+
 
 function Tarifs() {
   return (
