@@ -45,27 +45,8 @@ export const categories = [
     width: 900,
     height: 1100,
   },
-  {
-    title: "Créations sur mesure",
-    text: "Votre idée, adaptée à vos couleurs et à votre taille.",
-    src: catSurMesure,
-    width: 900,
-    height: 1100,
-  },
 ];
 
-export const featured: Creation[] = [
-  { src: g1, title: "Ensemble floral", category: "Vêtements", width: 900, height: 1200 },
-  { src: g3, title: "Petite robe crochet", category: "Enfant", width: 900, height: 1200 },
-  { src: catVetements, title: "Gilet pastel", category: "Vêtements", width: 900, height: 1100 },
-  {
-    src: catSurMesure,
-    title: "Création personnalisée",
-    category: "Sur mesure",
-    width: 900,
-    height: 1100,
-  },
-];
 
 export const gallery: Creation[] = [
   { src: g1, title: "Ensemble fleuri", category: "Vêtements", width: 900, height: 1200 },
