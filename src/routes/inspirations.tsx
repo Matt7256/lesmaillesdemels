@@ -1,9 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { site } from "@/config/site";
 import { Section, SectionHeading } from "@/components/ui/Section";
-import { CreationCard } from "@/components/ui/CreationCard";
 import { ContactCta } from "@/components/ContactCta";
-import { gallery } from "@/data/creations";
+import { inspirations } from "@/data/creations";
 
 export const Route = createFileRoute("/inspirations")({
   head: () => ({
