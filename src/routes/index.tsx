@@ -4,6 +4,7 @@ import { ExternalButton, LinkButton } from "@/components/ui/ActionButton";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { CreationCard } from "@/components/ui/CreationCard";
 import { ContactCta } from "@/components/ContactCta";
+import { Faq } from "@/components/Faq";
 import { categories, featured, hero } from "@/data/creations";
 
 export const Route = createFileRoute("/")({
@@ -122,6 +123,8 @@ function Accueil() {
           <LinkButton to="/inspirations">Voir toutes les inspirations</LinkButton>
         </div>
       </Section>
+
+      <Faq />
 
       <ContactCta
         title="Une idée en tête ?"
