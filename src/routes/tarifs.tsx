@@ -11,7 +11,7 @@ export const Route = createFileRoute("/tarifs")({
       {
         name: "description",
         content:
-          "Tarifs indicatifs des créations au crochet faites main : petites créations, vêtements et projets sur mesure. Demandez votre devis.",
+          "Tarifs indicatifs des créations au crochet faites main  : petites créations et vêtements. Demandez votre devis.",
       },
       { property: "og:title", content: `Tarifs — ${site.brandName}` },
       {
@@ -37,12 +37,8 @@ const offres = [
     items: ["Hauts", "Gilets", "Robes", "Ensembles"],
     highlight: true,
   },
-  {
-    title: "Créations sur mesure",
-    price: "Sur devis",
-    items: ["Modèle", "Taille", "Matières", "Complexité", "Personnalisation"],
-  },
 ];
+
 
 function Tarifs() {
   return (
@@ -56,7 +52,7 @@ function Tarifs() {
       </Section>
 
       <Section className="pt-4">
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {offres.map((offre) => (
             <article
               key={offre.title}
@@ -82,12 +78,6 @@ function Tarifs() {
                   </li>
                 ))}
               </ul>
-              {offre.title === "Créations sur mesure" ? (
-                <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-                  Les projets sur mesure sont chiffrés individuellement, après avoir
-                  échangé ensemble sur vos envies.
-                </p>
-              ) : null}
               <div className="mt-auto pt-8">
                 <ExternalButton
                   href={site.whatsapp}

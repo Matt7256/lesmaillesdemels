@@ -45,27 +45,8 @@ export const categories = [
     width: 900,
     height: 1100,
   },
-  {
-    title: "Créations sur mesure",
-    text: "Votre idée, adaptée à vos couleurs et à votre taille.",
-    src: catSurMesure,
-    width: 900,
-    height: 1100,
-  },
 ];
 
-export const featured: Creation[] = [
-  { src: g1, title: "Ensemble floral", category: "Vêtements", width: 900, height: 1200 },
-  { src: g3, title: "Petite robe crochet", category: "Enfant", width: 900, height: 1200 },
-  { src: catVetements, title: "Gilet pastel", category: "Vêtements", width: 900, height: 1100 },
-  {
-    src: catSurMesure,
-    title: "Création personnalisée",
-    category: "Sur mesure",
-    width: 900,
-    height: 1100,
-  },
-];
 
 export const gallery: Creation[] = [
   { src: g1, title: "Ensemble fleuri", category: "Vêtements", width: 900, height: 1200 },
@@ -166,3 +147,14 @@ export const inspirations: Inspiration[] = [
     height: 1200,
   },
 ];
+
+/**
+ * Sélection affichée sur l'accueil : reprend automatiquement les premières
+ * créations de la page Inspirations (mêmes photos, mêmes noms, même ordre).
+ */
+export const featured: Creation[] = inspirations.slice(0, 3).map((item) => ({
+  src: item.src,
+  title: item.name,
+  width: item.width,
+  height: item.height,
+}));
