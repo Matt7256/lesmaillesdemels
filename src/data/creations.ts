@@ -147,3 +147,14 @@ export const inspirations: Inspiration[] = [
     height: 1200,
   },
 ];
+
+/**
+ * Sélection affichée sur l'accueil : reprend automatiquement les premières
+ * créations de la page Inspirations (mêmes photos, mêmes noms, même ordre).
+ */
+export const featured: Creation[] = inspirations.slice(0, 3).map((item) => ({
+  src: item.src,
+  title: item.name,
+  width: item.width,
+  height: item.height,
+}));
