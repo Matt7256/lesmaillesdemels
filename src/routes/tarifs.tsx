@@ -52,7 +52,7 @@ function Tarifs() {
       </Section>
 
       <Section className="pt-4">
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {offres.map((offre) => (
             <article
               key={offre.title}
@@ -78,12 +78,6 @@ function Tarifs() {
                   </li>
                 ))}
               </ul>
-              {offre.title === "Créations sur mesure" ? (
-                <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-                  Les projets sur mesure sont chiffrés individuellement, après avoir
-                  échangé ensemble sur vos envies.
-                </p>
-              ) : null}
               <div className="mt-auto pt-8">
                 <ExternalButton
                   href={site.whatsapp}
