@@ -28,18 +28,18 @@ export const Route = createFileRoute("/a-propos")({
 const raisons = [
   {
     icon: Sparkles,
-    title: "Unique",
-    text: "Aucune pièce n'est identique à une autre. Chaque création est réalisée à l'unité, avec ses propres finitions.",
+    title: "Chaque pièce est unique",
+    text: "Chaque pièce est réalisée à l'unité, selon les envies du client et avec ses propres finitions.",
   },
   {
     icon: Heart,
     title: "Personnalisable",
-    text: "Couleurs, taille, longueur, détails : la création s'adapte à vos préférences et à la personne qui la portera.",
+    text: "Couleurs, taille, longueur, détails : chaque création s'adapte à vos préférences et à la personne qui la portera.",
   },
   {
     icon: Scissors,
     title: "Réalisée avec soin",
-    text: "Le temps passé sur chaque pièce permet de soigner les finitions, les assemblages et la tenue du vêtement.",
+    text: "Les pièces sont réalisées avec amour. Le temps passé sur chaque création permet de soigner chaque finition et d'apporter une attention particulière aux détails.",
   },
 ];
 

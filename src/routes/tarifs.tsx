@@ -28,12 +28,12 @@ export const Route = createFileRoute("/tarifs")({
 const offres = [
   {
     title: "Petites créations",
-    price: "À partir de XX €",
+    price: "Sur demande",
     items: ["Accessoires", "Petits modèles", "Détails personnalisés"],
   },
   {
     title: "Vêtements",
-    price: "À partir de XX €",
+    price: "Sur demande",
     items: ["Hauts", "Gilets", "Robes", "Ensembles"],
     highlight: true,
   },
