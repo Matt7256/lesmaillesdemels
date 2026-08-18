@@ -49,6 +49,8 @@
   --color-rose-soft: var(--rose-soft);
   --color-cocoa: var(--cocoa);
   --color-butter: var(--butter);
+  --color-butter-deep: var(--butter-deep);
+
 
   --shadow-soft: 0 18px 40px -24px oklch(0.35 0.05 60 / 0.35);
   --shadow-lift: 0 26px 60px -28px oklch(0.35 0.05 60 / 0.45);
@@ -59,11 +61,13 @@
 
   --cream: oklch(0.976 0.012 85);
   --sand: oklch(0.936 0.022 82);
-  --caramel: oklch(0.66 0.09 62);
+  /* Accent doré doux, dérivé du jaune pastel (remplace l'ancien caramel brun) */
+  --caramel: oklch(0.665 0.098 88);
   --rose: oklch(0.65 0.085 25);
   --rose-soft: oklch(0.9 0.032 30);
-  --cocoa: oklch(0.29 0.033 48);
-  --butter: oklch(0.86 0.11 95);
+  --cocoa: oklch(0.28 0.026 70);
+  --butter: oklch(0.885 0.102 95);
+  --butter-deep: oklch(0.815 0.115 92);
 
   --background: var(--cream);
   --foreground: var(--cocoa);
@@ -71,19 +75,20 @@
   --card-foreground: var(--cocoa);
   --popover: oklch(0.99 0.008 85);
   --popover-foreground: var(--cocoa);
-  --primary: var(--caramel);
-  --primary-foreground: oklch(0.99 0.008 85);
+  --primary: var(--butter);
+  --primary-foreground: var(--cocoa);
   --secondary: var(--sand);
   --secondary-foreground: var(--cocoa);
   --muted: oklch(0.948 0.016 82);
-  --muted-foreground: oklch(0.5 0.028 55);
-  --accent: var(--rose);
-  --accent-foreground: oklch(0.99 0.008 85);
+  --muted-foreground: oklch(0.5 0.024 75);
+  --accent: var(--butter-deep);
+  --accent-foreground: var(--cocoa);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.99 0.008 85);
   --border: oklch(0.9 0.018 78);
   --input: oklch(0.9 0.018 78);
   --ring: var(--caramel);
+
 }
 
 @layer base {
@@ -124,7 +129,7 @@
 @utility surface-grain {
   background-image: radial-gradient(
     circle at 1px 1px,
-    oklch(0.66 0.09 62 / 0.12) 1px,
+    oklch(0.665 0.098 88 / 0.14) 1px,
     transparent 0
   );
   background-size: 22px 22px;

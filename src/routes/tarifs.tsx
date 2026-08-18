@@ -112,7 +112,7 @@ function Tarifs() {
             href={site.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-caramel underline underline-offset-4 transition-colors hover:text-accent"
+            className="text-caramel underline underline-offset-4 transition-colors hover:text-foreground"
           >
             Instagram
           </a>
