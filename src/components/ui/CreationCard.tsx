@@ -22,7 +22,7 @@ export function CreationCard({
         className,
       )}
     >
-      <div className="overflow-hidden">
+      <div className="aspect-[4/5] overflow-hidden">
         <img
           src={creation.src}
           alt={creation.title}
