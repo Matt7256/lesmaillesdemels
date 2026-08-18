@@ -3,6 +3,8 @@ import { Heart, Sparkles, Scissors } from "lucide-react";
 import { site } from "@/config/site";
 import { Section, SectionHeading } from "@/components/ui/Section";
 import { ContactCta } from "@/components/ContactCta";
+import { Lys } from "@/components/ui/Lys";
+
 import { atelier } from "@/data/creations";
 
 export const Route = createFileRoute("/a-propos")({
