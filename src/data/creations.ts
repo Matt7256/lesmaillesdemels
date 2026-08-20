@@ -27,7 +27,6 @@ import topNatirel from "@/assets/top-natirel.jpeg";
 import topSoley from "@/assets/top-soley.jpeg";
 import topTwopik from "@/assets/top-twopik.jpeg";
 
-const hero = hero;
 
 export { hero, atelier, catVetements, catEnsembles, catAccessoires, catSurMesure };
 
