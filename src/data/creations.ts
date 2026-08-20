@@ -11,23 +11,23 @@ import catEnsembles from "@/assets/cat-ensembles.jpg";
 import catAccessoires from "@/assets/cat-accessoires.jpg";
 import catSurMesure from "@/assets/cat-surmesure.jpg";
 
-import heroAsset from "@/assets/home-photo_accueil.jpeg.asset.json";
-import homeVetementsAsset from "@/assets/home-vêtements.jpeg.asset.json";
-import homeEnsemblesAsset from "@/assets/home-ensemble.jpeg.asset.json";
-import homeAccessoiresAsset from "@/assets/home-accessoires.jpeg.asset.json";
+import hero from "@/assets/home-photo_accueil.jpeg";
+import homeVetements from "@/assets/home-vetements.jpeg";
+import homeEnsembles from "@/assets/home-ensemble.jpeg";
+import homeAccessoires from "@/assets/home-accessoires.jpeg";
 
 // Photos des créations (une seule source pour tout le site)
-import bobZekleAsset from "@/assets/bob-zekle.jpeg.asset.json";
-import bustierZetwalAsset from "@/assets/bustier-zetwal.jpeg.asset.json";
-import ensembleBoLanmeAsset from "@/assets/ensemble-bo-lanme.jpeg.asset.json";
-import ensembleCopacabanaAsset from "@/assets/ensemble-copacabana.jpeg.asset.json";
-import ensembleRioAsset from "@/assets/ensemble-rio.jpeg.asset.json";
-import robeLanmouAsset from "@/assets/robe-lanmou.jpeg.asset.json";
-import topNatirelAsset from "@/assets/top-natirel.jpeg.asset.json";
-import topSoleyAsset from "@/assets/top-soley.jpeg.asset.json";
-import topTwopikAsset from "@/assets/top-twopik.jpeg.asset.json";
+import bobZekle from "@/assets/bob-zekle.jpeg";
+import bustierZetwal from "@/assets/bustier-zetwal.jpeg";
+import ensembleBoLanme from "@/assets/ensemble-bo-lanme.jpeg";
+import ensembleCopacabana from "@/assets/ensemble-copacabana.jpeg";
+import ensembleRio from "@/assets/ensemble-rio.jpeg";
+import robeLanmou from "@/assets/robe-lanmou.jpeg";
+import topNatirel from "@/assets/top-natirel.jpeg";
+import topSoley from "@/assets/top-soley.jpeg";
+import topTwopik from "@/assets/top-twopik.jpeg";
 
-const hero = heroAsset.url;
+const hero = hero;
 
 export { hero, atelier, catVetements, catEnsembles, catAccessoires, catSurMesure };
 
@@ -35,21 +35,21 @@ export const categories = [
   {
     title: "Vêtements",
     text: "Hauts, gilets et robes réalisés maille après maille.",
-    src: homeVetementsAsset.url,
+    src: homeVetements,
     width: 1200,
     height: 1600,
   },
   {
     title: "Ensembles",
     text: "Des tenues coordonnées, du nouveau-né à l'adulte.",
-    src: homeEnsemblesAsset.url,
+    src: homeEnsembles,
     width: 1200,
     height: 1600,
   },
   {
     title: "Accessoires",
     text: "Chapeaux, sacs et petites pièces à offrir.",
-    src: homeAccessoiresAsset.url,
+    src: homeAccessoires,
     width: 1200,
     height: 1600,
   },
@@ -76,7 +76,7 @@ export const inspirations: Inspiration[] = [
     name: "Bob Zéklè",
     description: "Un bob crocheté main, pensé pour accompagner les journées ensoleillées.",
     price: "55 €",
-    src: bobZekleAsset.url,
+    src: bobZekle,
     width: 720,
     height: 1280,
   },
@@ -84,7 +84,7 @@ export const inspirations: Inspiration[] = [
     name: "Bustier Zétwal",
     description: "Un bustier réalisé maille après maille, personnalisable selon vos couleurs.",
     price: "35 €",
-    src: bustierZetwalAsset.url,
+    src: bustierZetwal,
     width: 960,
     height: 1280,
   },
@@ -92,7 +92,7 @@ export const inspirations: Inspiration[] = [
     name: "Ensemble Bo Lanmè",
     description: "Un ensemble coordonné fait main, adaptable à votre taille et à vos envies.",
     price: "57 €",
-    src: ensembleBoLanmeAsset.url,
+    src: ensembleBoLanme,
     width: 720,
     height: 1280,
   },
@@ -100,7 +100,7 @@ export const inspirations: Inspiration[] = [
     name: "Ensemble de maillot avec jupe Copacabana",
     description: "Maillot et jupe assortis, crochetés à l'unité pour une pièce unique.",
     price: "85 €",
-    src: ensembleCopacabanaAsset.url,
+    src: ensembleCopacabana,
     width: 720,
     height: 1280,
   },
@@ -108,7 +108,7 @@ export const inspirations: Inspiration[] = [
     name: "Ensemble Rio",
     description: "Un ensemble d'été entièrement réalisé à la main, aux finitions soignées.",
     price: "100 €",
-    src: ensembleRioAsset.url,
+    src: ensembleRio,
     width: 803,
     height: 1280,
   },
@@ -117,7 +117,7 @@ export const inspirations: Inspiration[] = [
     description:
       "Une robe au crochet imaginée avec douceur, personnalisable de la couleur à la longueur.",
     price: "72 €",
-    src: robeLanmouAsset.url,
+    src: robeLanmou,
     width: 720,
     height: 1280,
   },
@@ -125,7 +125,7 @@ export const inspirations: Inspiration[] = [
     name: "Top Natirel",
     description: "Un top léger et naturel, crocheté avec patience pour un rendu tout en finesse.",
     price: "30 €",
-    src: topNatirelAsset.url,
+    src: topNatirel,
     width: 1600,
     height: 1504,
   },
@@ -133,7 +133,7 @@ export const inspirations: Inspiration[] = [
     name: "Top Soley — Collection An ba Soley",
     description: "Une pièce lumineuse de la collection An ba Soley, réalisée entièrement à la main.",
     price: "42 €",
-    src: topSoleyAsset.url,
+    src: topSoley,
     width: 960,
     height: 1280,
   },
@@ -141,7 +141,7 @@ export const inspirations: Inspiration[] = [
     name: "Top Twopik",
     description: "Un top aux airs tropicaux, adaptable à vos couleurs et à votre taille.",
     price: "30 €",
-    src: topTwopikAsset.url,
+    src: topTwopik,
     width: 806,
     height: 1280,
   },

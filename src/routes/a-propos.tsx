@@ -5,9 +5,8 @@ import { Section, SectionHeading } from "@/components/ui/Section";
 import { ContactCta } from "@/components/ContactCta";
 import { Lys } from "@/components/ui/Lys";
 
-import aProposAsset from "@/assets/a-propos.jpeg.asset.json";
+import atelier from "@/assets/a-propos.jpeg";
 
-const atelier = aProposAsset.url;
 
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
