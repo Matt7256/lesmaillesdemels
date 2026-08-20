@@ -50,10 +50,24 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-border/70">
-        <p className="mx-auto w-full max-w-6xl px-5 py-6 text-center text-xs text-muted-foreground sm:px-8">
-          © {site.year} {site.brandName} — Tous droits réservés.
-        </p>
+        <div className="mx-auto w-full max-w-6xl px-5 py-6 text-center sm:px-8">
+          <p className="text-xs text-muted-foreground">
+            © {site.year} {site.brandName} — Tous droits réservés.
+          </p>
+          <p className="mt-2 text-xs text-muted-foreground/80">
+            Site créé par{" "}
+            <a
+              href="https://instagram.com/mxtt_lpn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-border transition-colors hover:text-caramel"
+            >
+              Matthieu Luperon
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
 }
+
