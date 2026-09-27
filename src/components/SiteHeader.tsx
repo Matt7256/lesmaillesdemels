@@ -3,6 +3,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { site, navLinks } from "@/config/site";
 import { ExternalButton } from "@/components/ui/ActionButton";
+import logo from "@/assets/logo.jpeg";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -14,9 +15,13 @@ export function SiteHeader() {
         <Link
           to="/"
           onClick={() => setOpen(false)}
-          className="font-serif text-xl tracking-wide text-foreground sm:text-2xl"
+          className="inline-flex items-center"
         >
-          {site.brandName}
+          <img
+            src={logo}
+            alt={site.brandName}
+            className="h-11 w-auto rounded-sm sm:h-12"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

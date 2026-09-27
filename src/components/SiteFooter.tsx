@@ -1,13 +1,18 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, MessageCircle } from "lucide-react";
 import { site, navLinks } from "@/config/site";
+import logo from "@/assets/logo.jpeg";
 
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-secondary/60">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-3">
         <div>
-          <p className="font-serif text-2xl text-foreground">{site.brandName}</p>
+          <img
+            src={logo}
+            alt={site.brandName}
+            className="h-14 w-auto rounded-sm"
+          />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
             {site.tagline}
           </p>
